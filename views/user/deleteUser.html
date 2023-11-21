@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete User</title>
+</head>
+<body>
+    <h1>Delete User</h1>
+    <form id="deleteUserForm" action="/users/delete/" method="get">
+        <!-- Add your form fields for deleting a user here -->
+        <label for="userId">ID :</label>
+        <input type="number" id="userId" name="userId" required />
+        <button type="submit">Delete User</button>
+    </form>
+
+    <button onclick="window.location.href='/addUser'">Add User</button>
+    <button onclick="window.location.href='/showAllUsers'">Show All Users</button>
+    <button onclick="window.location.href='/UpdateUser'">Update User</button>
+    <button onclick="window.location.href='/searchUser'">Search</button>
+</body>
+</html>

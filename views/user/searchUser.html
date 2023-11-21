@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search User</title>
+  </head>
+
+  <body>
+    <h1>Search User</h1>
+    <form action="/users/search/:teamId" method="get">
+      <!-- Add your form fields for searching a user here -->
+      <label for="teamId">Team Name:</label>
+      <select id="teamId" name="teamId" required>
+        <option value="1">Fox</option>
+        <option value="2">Chicken</option>
+        <option value="3">Viper</option>
+      </select>
+
+      <button type="submit">Search User</button>
+    </form>
+
+    <button onclick="window.location.href='/addUser'">Add User</button>
+    <button onclick="window.location.href='/showAllUsers'">
+      Show All Users
+    </button>
+    <button onclick="window.location.href='/UpdateUser'">Update User</button>
+    <button onclick="window.location.href='/deleteUser'">Delete User</button>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+insert into users (id, name, pwd, email, admin, created , updated, team) values (1, 'Rachèle', 'wcyt', 'gbaumber0@vistaprint.com', 1, '2/7/2023', '8/16/2023', null);
+insert into users (id, name, pwd, email, admin, created , updated, team) values (2, 'Aloïs', 'iqow$4%', 'chugnin1@time.com', 1, '11/29/2022', '4/30/2023', null);
+insert into users (id, name, pwd, email, admin, created , updated, team) values (3, 'Jú', 'oxnp=', 'dwisham2@blogtalkradio.com', 0, '12/31/2022', '7/31/2023', null);
+insert into users (id, name, pwd, email, admin, created , updated, team) values (4, 'Eloïse', 'rnubPZ7', 'fmoore3@ifeng.com', 1, '4/29/2023', '9/28/2023', null);
+insert into users (id, name, pwd, email, admin, created , updated, team) values (5, 'Fèi', 'fmeb', 'umilbourne4@yandex.ru', 0, '9/10/2023', '2/19/2023', null);
+insert into users (id, name, pwd, email, admin, created , updated, team) values (6, 'Aimée', 'zchhpFf', 'hpratte5@github.io', 0, '2/8/2023', '11/10/2023', null);
+insert into users (id, name, pwd, email, admin, created , updated, team) values (7, 'Marlène', 'feddhA<', 'dchaves6@slate.com', 1, '11/26/2022', '5/6/2023', null);
+insert into users (id, name, pwd, email, admin, created , updated, team) values (8, 'Méthode', 'rpws', 'jpestell7@geocities.jp', 0, '3/5/2023', '2/22/2023', null);
+insert into users (id, name, pwd, email, admin, created , updated, team) values (9, 'Andrée', 'eiea', 'mkelloway8@cbc.ca', 0, '12/23/2022', '4/25/2023', null);
+insert into users (id, name, pwd, email, admin, created , updated, team) values (10, 'Méryl', 'zwipn', 'hhamnett9@etsy.com', 1, '11/27/2022', '4/22/2023', null);
