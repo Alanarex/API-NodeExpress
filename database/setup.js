@@ -54,7 +54,7 @@ db.serialize(() => {
         (7, 'Marlène', 'feddhA<', 'dchaves6@slate.com', 1, '11/26/2022', '5/6/2023', 0),
         (8, 'Méthode', 'rpws', 'jpestell7@geocities.jp', 0, '3/5/2023', '2/22/2023', 0),
         (9, 'Andrée', 'eiea', 'mkelloway8@cbc.ca', 0, '12/23/2022', '4/25/2023', 0),
-        (10, 'Méryl', 'zwipn', 'hhamnett9@etsy.com', 1, '11/27/2022', '4/22/2023', 0)
+        (10, 'admin', 'admin', 'admin@oc.com', 1, '11/27/2022', '4/22/2023', 0)
     `);
 
   // Insert initial data into the teams table

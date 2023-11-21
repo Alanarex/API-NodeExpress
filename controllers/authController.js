@@ -1,4 +1,5 @@
 const bcrypt = require("bcrypt");
+const db = require('../database/database.js');
 
 const loginUser = async (req, res) => {
   try {
@@ -16,13 +17,13 @@ const loginUser = async (req, res) => {
 
     // Check if user exists
     if (!user) {
-      return res.status(401).json({ error: "Invalid email or password." });
+      return res.status(401).json({ error: "Invalid email or password. user not found" });
     }
-
     // Compare hashed password
-    const passwordMatch = await bcrypt.compare(password, user.pwd);
+    const passwordMatch = password===user.pwd
+    console.log(passwordMatch);
     if (!passwordMatch) {
-      return res.status(401).json({ error: "Invalid email or password." });
+      return res.status(401).json({ error: "Invalid email or password. incorrect password" });
     }
 
     // User authentication successful
@@ -33,7 +34,7 @@ const loginUser = async (req, res) => {
       isAdmin: user.admin === 1,
     };
 
-    res.json({ message: "Login successful", user: userData });
+    res.redirect("/addUser");
   } catch (error) {
     console.error("Error in loginUser:", error);
     res.status(500).json({ error: "Internal Server Error" });
